@@ -1,0 +1,40 @@
+@import"header";
+@import"variables";
+
+.titulo{
+    margin-top: 20px;
+    a{
+        text-decoration: none;
+        text-align: center;
+        h1{
+            font-size: 80px;
+            font-family:'Times New Roman', Times, serif;
+            color: #480ca8;
+            text-decoration: uppercase;
+            font-weight: bold;
+        }
+    }
+}
+
+.bodyIndex{
+    background-image: url(/imagenes/fonditoindex.jpg);
+    
+}
+.cuerPo{
+    background-color: #4895ef;
+}
+ 
+.mainIndex{
+    margin-top: 30px;
+
+}
+.botonKids{
+align-items: center;    
+}
+.mainProductos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+
